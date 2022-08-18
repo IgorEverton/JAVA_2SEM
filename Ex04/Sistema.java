@@ -13,17 +13,18 @@ public class Sistema {
 		ArrayList<PessoaFisica> listaContas = new ArrayList<>();
 		ArrayList<PessoaJuridica> listaConta = new ArrayList<>();
 		
+		
+		do {
 		System.out.printf("Banco Digital\n\n");
 		System.out.printf("1 - Cadastrar conta Pessoa Juridica"
 				+ 		"2 - Cadastrar conta Pessoa Fisica"
 				+ 		"3 - Exibir Contas de Pessoas Fisicas"
 				+ 		"4 - Exibir Contas Pessoas Juridicas\n\n");
 		
-		System.out.printf("Digite a opção desejada: ");
+		System.out.printf("Digite a opÃ§Ã£o desejada: ");
 		opcao = ler.nextInt();
 		
 		
-		do {
 			if (opcao == 1) {
 				PessoaJuridica pj = new PessoaJuridica();
 				
